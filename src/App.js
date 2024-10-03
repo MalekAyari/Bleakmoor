@@ -7,26 +7,22 @@ import Header from './components/semantics/Header';
 import Footer from './components/semantics/Footer';
 import About from './components/pages/About';
 import './Styles.css';
-import Navbar from './components/semantics/Navbar';
 
 function App() {
   return (
     <div className='text-center'>
-      <Header/>
 
-      <div className='flex w-screen h-screen bg-slate-700'>
-        <Navbar/>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" exact element={<Home/>} />
-          <Route path="/about" exact element={<About/>} />
-          <Route path="/dashboard" element={<Dashboard/>} />
-          <Route path="/admin" element={<Admin/>} />
-        </Routes>
-      </BrowserRouter>
+      <div className='flex text-slate-50 w-auto h-full bg-slate-800'>
+        <Header/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" exact element={<Home/>} />
+            <Route path="/about" exact element={<About/>} />
+            <Route path="/dashboard" element={<Dashboard/>} />
+            <Route path="/admin" element={<Admin/>} />
+          </Routes>
+        </BrowserRouter>
       </div>
-
-      
 
       <Footer/>
     </div>

@@ -1,11 +1,14 @@
-import React from "react"
+import React from "react";
 
-const HeaderButton = ({text, link}) => {
-    return(
-        <a href={link} className="text-white hover:bg-slate-700 transition rounded px-4 py-2">
+const HeaderButton = ({ text, link }) => {
+    return (
+        <a
+            href={link}
+            className="hover:bg-slate-300 align-middle text-xl hover:text-slate-900 transform-transition duration-300 ease-out rounded-t-lg p-4 hover:-mt-[0.4rem]"
+        >
             {text}
         </a>
-    )
-}
+    );
+};
 
-export default HeaderButton
+export default HeaderButton;
