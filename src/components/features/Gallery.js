@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../../Styles.css';
 
-export class Gallery extends Component {
-  render() {
+const Gallery = ({number}) => {
+  
     return (
-      <div className='fade-horizontal'>
-        <div className='rounded-xl overflow-hidden -translate-y-8 w-[36rem] h-[19rem]'>
+      <div className='fade-vertical'>
+        <div className='rounded-xl overflow-hidden -translate-y-8 w-[%]'>
           <img
-            src='media/articles/article-5.png'
+            src={`media/articles/article-${number}.png`}
             alt='article'
             className=''
           />
@@ -15,6 +15,5 @@ export class Gallery extends Component {
       </div>
     )
   }
-}
 
 export default Gallery

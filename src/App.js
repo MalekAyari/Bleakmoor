@@ -11,8 +11,7 @@ import './Styles.css';
 function App() {
   return (
     <div className='text-center'>
-
-      <div className='flex text-slate-50 w-auto h-full bg-slate-800'>
+      <div className='flex text-slate-50 py-60 w-full h-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-800'>
         <Header/>
         <BrowserRouter>
           <Routes>
