@@ -7,7 +7,7 @@ const Gallery = ({number}) => {
       <div className='fade-vertical'>
         <div className='rounded-xl overflow-hidden -translate-y-8 w-[%]'>
           <img
-            src={`media/articles/article-${number}.png`}
+            src={`media/articles/${number}.png`}
             alt='article'
             className=''
           />

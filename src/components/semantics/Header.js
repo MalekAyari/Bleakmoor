@@ -60,9 +60,9 @@ export default class Header extends Component {
             <div className='mx-40 mb-5 w-20 h-20 group border-2 border-slate-400 rounded-full bg-slate-500'>
               <button onClick={this.toggleUnfold}>
                 <img 
-                  src='/media/detective-silhouette-vector-5841139.png' 
+                  src='/media/loginIcon.png' 
                   alt="login detective icon" 
-                  className='h-full w-full transition duration-300 ease-out hover:scale-95 shadow-xl shadow-slate-900 active:scale-[80%] rounded-full'
+                  className='h-full w-full transition duration-300 ease-out shadow-xl hover:scale-95 shadow-slate-900 active:scale-[80%] rounded-full'
                 />
               </button>
             </div>
